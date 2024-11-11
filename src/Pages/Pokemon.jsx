@@ -10,7 +10,7 @@ export const Pokemon = () => {
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState("asc");
 
-  const API = "https://pokeapi.co/api/v2/pokemon?limit=30";
+  const API = "https://pokeapi.co/api/v2/pokemon?limit=300";
 
   const fetchingAllPokemonData = async () => {
     setLoading(true);
